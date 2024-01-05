@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video-container {
+    z-index: -2;
+}
+
+.ovelay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background-color: #1E202B;
+}
+
+.ditails-two {
+    position: relative;
+}
+
+.ditails-two::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 120%;
+    left: 22px;
+    top: -14px;
+    background-color: #1e202b;
+    z-index: -1;
+}
+
+#conditionIcon,
+#conditionIconTwo,
+#conditionIconThree {
+    width: 150px;
+}
+
+#currentDegree,
+.degree {
+    font-size: 4rem;
+}
+
+.borderline {
+    position: relative;
+}
+
+.borderline::after {
+    content: '';
+    width: 3px;
+    height: 100%;
+    top: -15px;
+    right: 0;
+    background-color: #5b5b5b;
+    position: absolute;
+}
