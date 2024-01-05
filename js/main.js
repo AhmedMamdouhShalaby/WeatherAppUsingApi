@@ -81,7 +81,7 @@ cityInput.addEventListener('change', async function () {
     }
 });
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const http = 'http:';
+const http = 'https:';
 function displayData() {
     const date = new Date(allItems.location.localtime);
     const dayOfWeek = date.getDay();
